@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "domclicksimplebot"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav Rusin <yarusin@rvision.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "3.0.0b8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
